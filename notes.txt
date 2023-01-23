@@ -1,0 +1,14 @@
+crear entorno virtual
+python -m venv venv
+
+activarlo
+
+source venv/Scripts/activate
+
+instalar framework y libreria
+pip install fastapi uvicorn
+
+comando para agregar el proyecto a un repositorio remoto
+
+git remote add origin git@github.com:Engleonardorm7/FastAPI.git
+
