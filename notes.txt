@@ -12,3 +12,6 @@ comando para agregar el proyecto a un repositorio remoto
 
 git remote add origin git@github.com:Engleonardorm7/FastAPI.git
 
+iniciar servido
+uvicorn main:app --reload
+
