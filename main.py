@@ -1,4 +1,5 @@
 #Python
+import json
 from uuid import UUID
 from datetime import date
 from datetime import datetime
@@ -12,6 +13,7 @@ from pydantic import Field
 #FastAPI
 from fastapi import FastAPI
 from fastapi import status
+from fastapi import Body
 
 app=FastAPI()
 
@@ -43,7 +45,7 @@ class User(UserBase):
         )
     birth_date: Optional[date]=Field(default=None)
 
-class UserRegistr(User):
+class UserRegister(User):
     password: str = Field(
         ...,
         min_length=8,
@@ -74,7 +76,7 @@ class Tweet(BaseModel):
     summary="Register a User",
     tags=["Users"]
 )
-def signup():
+def signup(user:UserRegister=Body(...)):
     """
     Signup
 
@@ -89,8 +91,17 @@ def signup():
         - email: Emailstr
         - first_name: str
         - last_name:str
-        - birth_date: str
+        - birth_date: date
     """
+    with open("users.json","r+", encoding="utf-8") as f:
+        results=json.loads(f.read())#para convertir en una lista de diccionarios y que se pueda trabajar
+        user_dict=user.dict()
+        user_dict["user_id"]=str(user_dict["user_id"])
+        user_dict["birth_date"]=str(user_dict["birth_date"])
+        results.append(user_dict)
+        f.seek(0)#Para volver al inicio del archivo nuevamente al byte 0, para que reemplace todo el contenido que ya estaba
+        f.write(json.dumps(results)) #Para convertir nuevamente en un archivo tipo json
+        return user
 
 ### Login a user
 @app.post(
