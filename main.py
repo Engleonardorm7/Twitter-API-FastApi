@@ -18,7 +18,8 @@ from fastapi import HTTPException
 from fastapi.param_functions import Path
 
 app=FastAPI()
-
+app.title="Twetter API"
+app.version="0.0.1"
 #Models
 
 class UserBase(BaseModel):
