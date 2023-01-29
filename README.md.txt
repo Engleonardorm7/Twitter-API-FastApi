@@ -15,7 +15,7 @@ Features included:
 ## Requirements:
 - Python >= 3.10
 
-## Installation
+## Installing
 1. Clone or download de repository:
     ```
     $ git clone git@github.com:Engleonardorm7/Twitter-API-FastApi.git
@@ -39,3 +39,9 @@ Features included:
 
 ## Basic Usage
 Once you are running the server open the [Swagger UI App](http://localhost:8000/docs) to checkout the API documentation.
+
+## Authors
+Leonardo Rodriguez - [Github Profile](https://github.com/Engleonardorm7)
+
+## Additional notes
+The code is a simple program and is not intended for production use. It serves only as an example of basic FastAPI concepts.

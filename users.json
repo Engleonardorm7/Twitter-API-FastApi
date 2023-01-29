@@ -1,26 +1,24 @@
 [
     {
-        "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa2",
+        "email": "Rodrigo@example.com",
+        "first_name": "Rodrigo",
+        "last_name": "Romero",
+        "birth_date": "1999-01-29"
+    },
+    {
+        "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa1",
         "email": "Leonardo@example.com",
-        "first_name": "string",
-        "last_name": "string",
-        "birth_date": "2023-01-27",
-        "password": "stringst"
+        "first_name": "Leonardo",
+        "last_name": "Rodriguez",
+        "birth_date": "1993-01-29"
     },
     {
-        "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-        "email": "Miguel@example.com",
-        "first_name": "string",
-        "last_name": "string",
-        "birth_date": "2023-01-27",
-        "password": "stringst"
-    },
-    {
-        "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-        "email": "Carlos@example.com",
-        "first_name": "string",
-        "last_name": "string",
-        "birth_date": "2023-01-27",
-        "password": "202212331223"
+        "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa7",
+        "email": "Kelly@example.com",
+        "first_name": "Kelly",
+        "last_name": "Suarez",
+        "birth_date": "1996-06-02",
+        "password": "hermosa1994"
     }
 ]
