@@ -1,0 +1,41 @@
+[
+    {
+        "tweet_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "content": "Segundo tweet de la hitoria",
+        "created_at": "2023-01-27 22:47:28.074118",
+        "updated_at": "2023-01-28 03:47:42.658000+00:00",
+        "by": {
+            "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "email": "user@example.com",
+            "first_name": "Leonardo",
+            "last_name": "Rodriguez",
+            "birth_date": "2023-01-28"
+        }
+    },
+    {
+        "tweet_id": "3fa85f64-5717-4562-b3fc-2c963f66afa7",
+        "content": "Me voy de Tweeter",
+        "created_at": "2023-01-27 22:47:28.074118",
+        "updated_at": "2023-01-28 03:47:42.658000+00:00",
+        "by": {
+            "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "email": "user@example.com",
+            "first_name": "Rocio",
+            "last_name": "Rodriguez",
+            "birth_date": "2023-01-28"
+        }
+    },
+    {
+        "tweet_id": "3fa85f64-5717-4562-b3fc-2c963f66afa1",
+        "content": "Things are going well",
+        "created_at": "2023-01-29 12:45:30.833184",
+        "updated_at": "2023-01-29 17:48:06.749000+00:00",
+        "by": {
+            "user_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "email": "well@example.com",
+            "first_name": "good",
+            "last_name": "evening",
+            "birth_date": "2023-01-29"
+        }
+    }
+]
